@@ -6,11 +6,22 @@
   font-family: 'Poppins', sans-serif;
 }
 
+#title {
+  font-size: 28px;
+  color: #2f3542;
+  border: 3px solid clear;
+  padding: .2em;
+  border-radius: 5px;
+  background-color: clear;
+  text-align: center;
+  margin-top: 0;
+}
+
 body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+  background: linear-gradient(135deg, #4AB1FF, #93c3ff);
 }
 
 ::selection {
@@ -46,13 +57,13 @@ body {
   font-size: 18px;
   border-radius: 5px;
   padding: 0 20px 0 53px;
-  border: 1px solid #999;
+  border: 1px solid #93c3ff;
 }
 
 .task-input input:focus,
 .task-input input.active {
   padding-left: 52px;
-  border: 2px solid #3C87FF;
+  border: 2px solid #93c3ff;
 }
 
 .task-input input::placeholder {
@@ -67,7 +78,7 @@ body {
 
 .controls {
   padding: 18px 25px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #93c3ff;
 }
 
 .filters span {
@@ -97,7 +108,7 @@ body {
   letter-spacing: 0.3px;
   pointer-events: none;
   transition: transform 0.25s ease;
-  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+  background: linear-gradient(135deg, #1798fb 0%, #93c3ff 100%);
 }
 
 .clear-btn.active {
